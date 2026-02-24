@@ -34,12 +34,12 @@ This repository provides a reproducible framework to quantify and address this d
 ## Contents
 
 /figures
-  figure1.svg   # Three-layer rendering model
-  figure2.svg   # Core shrinkage at small font sizes
-  figure3.svg   # Core Ratio model
-  figure4.svg   # Font size vs AA impact
-  figure5.svg   # CSS vs measured contrast difference
-  figure6.svg   # Extraction algorithm flowchart
+  1.svg   # Three-layer rendering model
+  2.svg   # Core shrinkage at small font sizes
+  3.svg   # Core Ratio model
+  4.svg   # Font size vs AA impact
+  5.svg   # CSS vs measured contrast difference
+  6.svg   # Extraction algorithm flowchart
 
 /appendix
   appendix.pdf  # Mathematical definitions, empirical data, algorithm, rendering notes

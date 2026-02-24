@@ -31,8 +31,11 @@ Modern rendering engines introduce anti‑aliasing that blends text and backgrou
 This repository provides a reproducible framework to quantify and address this discrepancy.
 
 ---
+
 ## Contents
 
+
+---
 
 ## Figures
 
@@ -54,11 +57,6 @@ This repository provides a reproducible framework to quantify and address this d
 ### Figure 6 — Extraction algorithm flowchart
 ![Figure 6](6.svg)
 
-/appendix
-  appendix.pdf  # Mathematical definitions, empirical data, algorithm, rendering notes
-
-proposal.md     # Full technical document (normative + informative sections)
-README.md       # This file
 ---
 
 ## Core Concepts
@@ -68,43 +66,12 @@ README.md       # This file
 - **AA Band** — blended intermediate colors  
 - **BG-Ring** — background sampling region  
 
-![1 — Three-layer rendering model](figures/figure1.svg)
-
----
-
-### Core Shrinkage at Small Font Sizes
-Anti-aliasing dominates at small font sizes, reducing the Core Region.
-
-![2 — Core shrinkage at small font sizes](figures/figure2.svg)
-
----
-
 ### Core Ratio Model
 A mathematical model representing the proportion of a glyph unaffected by anti-aliasing.
 
 \[
 \text{CoreRatio} = (C/W)^2
 \]
-
-![3 — Core Ratio model](figures/figure3.svg)
-
----
-
-### Font Size vs Anti-Aliasing Impact
-
-![4 — Font size vs AA impact](figures/figure4.svg)
-
----
-
-### CSS vs Measured Contrast Difference
-
-![5 — CSS vs measured contrast difference](figures/figure5.svg)
-
----
-
-### Extraction Algorithm (Core / AA / BG-Ring)
-
-![6 — Extraction algorithm flowchart](figures/figure6.svg)
 
 ---
 
@@ -118,4 +85,26 @@ A mathematical model representing the proportion of a glyph unaffected by anti-a
 
 ## WCAG Proposal
 
+The full proposal submitted to the WCAG Working Group is available in:
+- **>25%** → measured contrast unreliable  
+- **<15%** → measured contrast reliable  
+- **15–25%** → warning range  
+
+---
+
+## WCAG Proposal
+
 The full proposal submitted to the WCAG Working Group is available in:        
+
+---
+
+## License
+
+MIT License.  
+Models, figures, and algorithms may be reused with attribution.
+
+---
+
+## Contact
+
+For questions or discussion, please open an Issue.

@@ -34,7 +34,6 @@ This repository provides a reproducible framework to quantify and address this d
 
 ## Contents
 
-
 ---
 
 ## Figures
@@ -86,16 +85,7 @@ A mathematical model representing the proportion of a glyph unaffected by anti-a
 ## WCAG Proposal
 
 The full proposal submitted to the WCAG Working Group is available in:
-- **>25%** → measured contrast unreliable  
-- **<15%** → measured contrast reliable  
-- **15–25%** → warning range  
-
----
-
-## WCAG Proposal
-
-The full proposal submitted to the WCAG Working Group is available in:        
-
+[proposal.md](proposal.md)
 ---
 
 ## License
@@ -108,3 +98,4 @@ Models, figures, and algorithms may be reused with attribution.
 ## Contact
 
 For questions or discussion, please open an Issue.
+

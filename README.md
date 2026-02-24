@@ -62,7 +62,7 @@ README.md       # This file
 ### Core Shrinkage at Small Font Sizes
 Anti-aliasing dominates at small font sizes, reducing the Core Region.
 
-![Figure 2 — Core shrinkage at small font sizes](figures/figure2.svg)
+![2 — Core shrinkage at small font sizes](figures/figure2.svg)
 
 ---
 

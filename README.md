@@ -55,7 +55,7 @@ README.md       # This file
 - **AA Band** — blended intermediate colors  
 - **BG-Ring** — background sampling region  
 
-![Figure 1 — Three-layer rendering model](figures/figure1.svg)
+![1 — Three-layer rendering model](figures/figure1.svg)
 
 ---
 
@@ -73,25 +73,25 @@ A mathematical model representing the proportion of a glyph unaffected by anti-a
 \text{CoreRatio} = (C/W)^2
 \]
 
-![Figure 3 — Core Ratio model](figures/figure3.svg)
+![3 — Core Ratio model](figures/figure3.svg)
 
 ---
 
 ### Font Size vs Anti-Aliasing Impact
 
-![Figure 4 — Font size vs AA impact](figures/figure4.svg)
+![4 — Font size vs AA impact](figures/figure4.svg)
 
 ---
 
 ### CSS vs Measured Contrast Difference
 
-![Figure 5 — CSS vs measured contrast difference](figures/figure5.svg)
+![5 — CSS vs measured contrast difference](figures/figure5.svg)
 
 ---
 
 ### Extraction Algorithm (Core / AA / BG-Ring)
 
-![Figure 6 — Extraction algorithm flowchart](figures/figure6.svg)
+![6 — Extraction algorithm flowchart](figures/figure6.svg)
 
 ---
 

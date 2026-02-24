@@ -1,0 +1,69 @@
+<svg width="720" height="620" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Title -->
+  <text x="360" y="40" text-anchor="middle" font-size="22">
+    Core / AA / BG-Ring Extraction Algorithm
+  </text>
+
+  <!-- Step 1 -->
+  <rect x="180" y="80" width="360" height="60" fill="#f0f0f0" stroke="#333" stroke-width="2" rx="8"/>
+  <text x="360" y="115" text-anchor="middle" font-size="16">
+    Step 1: Detect Text Region (OCR / Segmentation)
+  </text>
+
+  <!-- Arrow -->
+  <line x1="360" y1="140" x2="360" y2="170" stroke="#333" stroke-width="2"/>
+  <polygon points="360,170 350,160 370,160" fill="#333"/>
+
+  <!-- Step 2 -->
+  <rect x="180" y="170" width="360" height="60" fill="#f0f0f0" stroke="#333" stroke-width="2" rx="8"/>
+  <text x="360" y="205" text-anchor="middle" font-size="16">
+    Step 2: Apply Distance Transform to Text Mask
+  </text>
+
+  <!-- Arrow -->
+  <line x1="360" y1="230" x2="360" y2="260" stroke="#333" stroke-width="2"/>
+  <polygon points="360,260 350,250 370,250" fill="#333"/>
+
+  <!-- Step 3 -->
+  <rect x="180" y="260" width="360" height="80" fill="#f0f0f0" stroke="#333" stroke-width="2" rx="8"/>
+  <text x="360" y="295" text-anchor="middle" font-size="16">
+    Step 3: Estimate Font Size from Max Distance
+  </text>
+  <text x="360" y="315" text-anchor="middle" font-size="14">
+    (FontSize ≈ 2 × MaxDistance)
+  </text>
+
+  <!-- Arrow -->
+  <line x1="360" y1="340" x2="360" y2="370" stroke="#333" stroke-width="2"/>
+  <polygon points="360,370 350,360 370,360" fill="#333"/>
+
+  <!-- Step 4 -->
+  <rect x="180" y="370" width="360" height="80" fill="#f0f0f0" stroke="#333" stroke-width="2" rx="8"/>
+  <text x="360" y="405" text-anchor="middle" font-size="16">
+    Step 4: Compute Core Thickness C
+  </text>
+  <text x="360" y="425" text-anchor="middle" font-size="14">
+    C = 0.02S − 0.03
+  </text>
+
+  <!-- Arrow -->
+  <line x1="360" y1="450" x2="360" y2="480" stroke="#333" stroke-width="2"/>
+  <polygon points="360,480 350,470 370,470" fill="#333"/>
+
+  <!-- Step 5 -->
+  <rect x="180" y="480" width="360" height="100" fill="#f0f0f0" stroke="#333" stroke-width="2" rx="8"/>
+  <text x="360" y="515" text-anchor="middle" font-size="16">
+    Step 5: Extract Regions
+  </text>
+  <text x="360" y="540" text-anchor="middle" font-size="14">
+    Core = pixels with distance ≥ C
+  </text>
+  <text x="360" y="560" text-anchor="middle" font-size="14">
+    AA = distance 1–2px
+  </text>
+  <text x="360" y="580" text-anchor="middle" font-size="14">
+    BG-Ring = outside text mask (2–4px)
+  </text>
+
+</svg>

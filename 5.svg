@@ -1,0 +1,37 @@
+<svg width="600" height="360" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Title -->
+  <text x="300" y="30" text-anchor="middle" font-size="20">
+    CSS Contrast vs Measured Contrast Difference
+  </text>
+
+  <!-- Axes -->
+  <line x1="80" y1="300" x2="560" y2="300" stroke="black" stroke-width="2"/>
+  <line x1="80" y1="80" x2="80" y2="300" stroke="black" stroke-width="2"/>
+
+  <!-- Axis labels -->
+  <text x="300" y="340" text-anchor="middle" font-size="16">Font Size (px)</text>
+  <text x="40" y="190" text-anchor="middle" font-size="16" transform="rotate(-90 40,190)">
+    Difference (%)
+  </text>
+
+  <!-- Data points -->
+  <circle cx="120" cy="260" r="6" fill="#000"/> <!-- 16px -->
+  <circle cx="180" cy="220" r="6" fill="#000"/> <!-- 14px -->
+  <circle cx="240" cy="180" r="6" fill="#000"/> <!-- 12px -->
+  <circle cx="300" cy="140" r="6" fill="#000"/> <!-- 10px -->
+  <circle cx="360" cy="120" r="6" fill="#000"/> <!-- 9px -->
+
+  <!-- Labels -->
+  <text x="120" y="255" font-size="12" text-anchor="middle">16px</text>
+  <text x="180" y="215" font-size="12" text-anchor="middle">14px</text>
+  <text x="240" y="175" font-size="12" text-anchor="middle">12px</text>
+  <text x="300" y="135" font-size="12" text-anchor="middle">10px</text>
+  <text x="360" y="115" font-size="12" text-anchor="middle">9px</text>
+
+  <!-- Connecting line -->
+  <polyline
+    points="120,260 180,220 240,180 300,140 360,120"
+    fill="none" stroke="#333" stroke-width="2"/>
+
+</svg>

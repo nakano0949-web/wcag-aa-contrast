@@ -1,0 +1,18 @@
+<svg width="480" height="360" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- BG-Ring -->
+  <rect x="20" y="20" width="440" height="320" fill="#f0f0f0" stroke="#999" stroke-width="2"/>
+  <text x="240" y="45" text-anchor="middle" font-size="16">BG-Ring（背景）</text>
+  <text x="240" y="65" text-anchor="middle" font-size="12">文字の外側2〜4pxの背景サンプリング領域</text>
+
+  <!-- AA Band -->
+  <rect x="80" y="80" width="320" height="200" fill="#cccccc" stroke="#666" stroke-width="2"/>
+  <text x="240" y="110" text-anchor="middle" font-size="16">AA（アンチエイリアス帯）</text>
+  <text x="240" y="130" text-anchor="middle" font-size="12">中間色：文字色と背景色の線形補間領域</text>
+
+  <!-- Core -->
+  <rect x="160" y="150" width="160" height="80" fill="#000000" stroke="#333" stroke-width="2"/>
+  <text x="240" y="195" text-anchor="middle" font-size="16" fill="#ffffff">Core（純文字色）</text>
+  <text x="240" y="215" text-anchor="middle" font-size="12" fill="#ffffff">アンチエイリアスの影響ゼロ領域</text>
+
+</svg>

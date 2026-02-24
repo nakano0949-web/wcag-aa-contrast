@@ -1,0 +1,27 @@
+<svg width="600" height="260" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Labels -->
+  <text x="150" y="30" text-anchor="middle" font-size="16">24px（Coreが太い）</text>
+  <text x="450" y="30" text-anchor="middle" font-size="16">12px（Coreが細い）</text>
+
+  <!-- 24px Example -->
+  <rect x="80" y="60" width="140" height="120" fill="#000"/>
+  <rect x="70" y="50" width="160" height="140" fill="none" stroke="#999" stroke-width="2"/>
+  <text x="150" y="200" text-anchor="middle" font-size="12">Core が広く AA が少ない</text>
+
+  <!-- 12px Example -->
+  <rect x="380" y="60" width="140" height="120" fill="#000"/>
+  <rect x="370" y="50" width="160" height="140" fill="none" stroke="#999" stroke-width="2"/>
+  <rect x="380" y="60" width="140" height="120" fill="url(#aaPattern)"/>
+
+  <!-- AA Pattern -->
+  <defs>
+    <pattern id="aaPattern" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="6" fill="#cccccc"/>
+      <circle cx="3" cy="3" r="2" fill="#aaaaaa"/>
+    </pattern>
+  </defs>
+
+  <text x="450" y="200" text-anchor="middle" font-size="12">Core が極端に細く AA が支配的</text>
+
+</svg>

@@ -167,6 +167,7 @@ W = \text{mean total glyph width}
 $$
 
 Step 6 — Core Ratio
+
 $$
 \text{CoreRatio} = (C/W)^2
 $$

@@ -145,10 +145,10 @@ Pixels with minimal distance are candidates for the Core Region.
 Step 3 — Thresholding
 Define thresholds:
 
-- \( T_{\text{core}} \) — maximum distance for core pixels  
-- \( T_{\text{bg}} \) — minimum distance for background pixels  
-
+$T_{\text{core}}$ — maximum distance for core pixels  
+$T_{\text{bg}}$ — minimum distance for background pixels  
 Pixels between these thresholds form the AA Band.
+
 
 Step 4 — Region Labeling
 - Core Region = connected components of core pixels  

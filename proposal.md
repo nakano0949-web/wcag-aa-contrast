@@ -34,9 +34,9 @@ This structure is consistent across major platforms (Windows, macOS, iOS, Androi
 ## 4. Core Ratio Model
 We define the proportion of a glyph unaffected by AA as:
 
-\[
+$$
 \text{CoreRatio} = (C/W)^2
-\]
+$$
 
 Where:
 - \( C \) = core width  
@@ -136,9 +136,9 @@ Step 1 — Input
 Step 2 — Compute Color Distance
 For each pixel \( p \):
 
-\[
+$$
 d(p) = \| p - C_{\text{text}} \|
-\]
+$$
 
 Pixels with minimal distance are candidates for the Core Region.
 
@@ -158,18 +158,18 @@ Step 4 — Region Labeling
 Step 5 — Core Width Measurement
 Compute:
 
-\[
+$$
 C = \text{mean core width across glyph}
-\]
+$$
 
-\[
+$$
 W = \text{mean total glyph width}
-\]
+$$
 
 Step 6 — Core Ratio
-\[
+$$
 \text{CoreRatio} = (C/W)^2
-\]
+$$
 
 ---
 

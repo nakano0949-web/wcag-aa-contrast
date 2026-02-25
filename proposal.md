@@ -151,9 +151,9 @@ Pixels between these thresholds form the AA Band.
 
 
 Step 4 — Region Labeling
-- Core Region = connected components of core pixels  
-- AA Band = all pixels between \( T{\text{core}} \) and \( T{\text{bg}} \)  
-- BG‑Ring = background pixels adjacent to AA Band
+Core Region = connected components of core pixels  
+AA Band = all pixels between $T_{\text{core}}$ and $T_{\text{bg}}$  
+BG‑Ring = background pixels adjacent to the AA Band
 
 Step 5 — Core Width Measurement
 Compute:

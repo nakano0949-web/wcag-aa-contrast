@@ -68,10 +68,9 @@ This repository provides a reproducible framework to quantify and address this d
 ### Core Ratio Model
 A mathematical model representing the proportion of a glyph unaffected by anti-aliasing.
 
-\[
-\text{CoreRatio} = (C/W)^2
-\]
-
+$$
+\mathrm{CoreRatio} = \left( \frac{C}{W} \right)^2
+$$
 ---
 
 ## Contrast Difference Thresholds
